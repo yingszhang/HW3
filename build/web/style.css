@@ -8,9 +8,6 @@ h1
  text-align: center;
 }
 
-div
-{;
-}
 
 table
 {margin-left: 35%;
@@ -21,10 +18,8 @@ height:230px;
 border: 1px solid black;
 }
 
-#2
-{margin-left:30%;
-margin-right:30%;
-border:1px solid black;}
+.number
+{text-align: left;}
 
 #button
 {margin-left: 35%;
@@ -32,15 +27,17 @@ margin-right: 35%;
 border: 1px;
 margin-top: 3%;}
 
-tr
+td
 {width:50px;
+ border:1px solid black;
 }
 
-td{
-    width:350px;
+td
+{text-align: right;
+ width:350px;
 }
 input 
-{height: 30px;
+{height:30px;
 }
 
-h3{text-align: center;}
+h4{text-align:center;}

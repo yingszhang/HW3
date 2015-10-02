@@ -47,58 +47,57 @@
  
     %>    
         
-        <table id="2">
+        <table>
             <tbody>
                 <tr>
                     <td>Total Hours Worked:</td>
-                    <td><%=totalh%></td>
+                    <td class="number"><%=totalh%></td>
                 </tr>
                 
                 <tr>
                     <td>Hourly Rate:</td>
-                    <td><%=rate%></td>
+                    <td class="number"><%=rate%></td>
                 </tr>
                 
                 <tr>
                     <td># Hours Overtime:</td>
-                    <td><%=overtime%></td>
+                    <td class="number"><%=overtime%></td>
                 </tr>
                 
                 <tr>
                     <td>Overtime Hourly Rate:</td>
-                    <td>
-                        <%=overrate%></td>
+                    <td class="number"><%=overrate%></td>
                 </tr>
                 
                 <tr>
                     <td>Gross Pay:</td>
-                    <td><%= gross%></td>
+                    <td class="number"><%= gross%></td>
                 </tr>
                 
                 <tr>
                     <td>Pre-tax Deduct:</td>
-                    <td><%=prededuct%></td>
+                    <td class="number"><%=prededuct%></td>
                 </tr>
                 
                 <tr>
                     <td>Pre-tax Pay:</td>
-                    <td><%= prep%></td>
+                    <td class="number"><%= prep%></td>
                 </tr>
                 <tr>
                     <td>Tax Amount:</td>
-                    <td><%= tax%></td>
+                    <td class="number"><%= tax%></td>
                 </tr>
                 <tr>
                     <td>Post-tax Pay:</td>
-                    <td><%= postp%></td>
+                    <td class="number"><%= postp%></td>
                 </tr>
                 <tr>
                     <td>Post-tax Deduct:</td>
-                    <td><%=postdeduct%></td>
+                    <td class="number"><%=postdeduct%></td>
                 </tr>
                 <tr>
                     <td>Net Pay:</td>
-                    <td><%=net%></td>
+                    <td class="number"><%=net%></td>
                 </tr> 
             </tbody>
         </table>
