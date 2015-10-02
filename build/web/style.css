@@ -16,6 +16,9 @@ table
 {margin-left: 35%;
 margin-right: 35%; 
 font-size: 15px;
+width: 500px;
+hight:700px;
+border: 1px solid black;
 }
 
 #2
@@ -33,6 +36,11 @@ tr
 {width:50px;
 }
 
+td{
+    width:350px;
+}
 input 
 {height: 30px;
 }
+
+h3{text-align: center;}
