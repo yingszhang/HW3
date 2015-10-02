@@ -1,0 +1,38 @@
+body 
+{font-family:Arial;
+font-size: 18px;
+background-color: #EAC8BA}
+
+h1
+{text-decoration: underline;
+ text-align: center;
+}
+
+div
+{;
+}
+
+table
+{margin-left: 35%;
+margin-right: 35%; 
+font-size: 15px;
+}
+
+#2
+{margin-left:30%;
+margin-right:30%;
+border:1px solid black;}
+
+#button
+{margin-left: 35%;
+margin-right: 35%;
+border: 1px;
+margin-top: 3%;}
+
+tr
+{width:50px;
+}
+
+input 
+{height: 30px;
+}
